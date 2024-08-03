@@ -11,8 +11,8 @@ export default function About() {
       <div className="container-spacing">
         <p className="text-center text-2xl">About us</p>
         <div className="mt-4">
-          We specialize in animal pregnancy kits provides essential tools for
-          veterinarians, breeders, and pet owners to determine pregnancy in
+          We are specialized in animal pregnancy kits provides essential tools for
+          veterinarians, breeders pet owners to determine pregnancy in
           animals accurately and conveniently. These kits typically include
           testing supplies or devices that detect specific hormones or proteins
           indicative of pregnancy in various animals, ensuring early detection
@@ -24,12 +24,12 @@ export default function About() {
           <Card
             img={readyToUse}
             alt="readyToUse"
-            desc="The kits come pre-loaded with all necessary reagents, simplifying the testing process for immediate use without preparation."
+            desc="The kit comes pre-loaded with all necessary reagents, simplifying the testing process for immediate use without preparation."
           ></Card>
           <Card
             img={kit}
             alt="kit"
-            desc="The kits eliminate the need for additional equipment or waiting periods, providing instant results without the requirement for incubation."
+            desc="The kit eliminates the need for additional equipment or waiting periods, providing instant results without the requirement for incubation."
           ></Card>
           <Card
             img={checkmark}
