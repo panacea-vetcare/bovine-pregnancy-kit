@@ -15,10 +15,10 @@ export default function ContactUs() {
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex justify-center items-center gap-3">
               <Image
-                  src={contactqr}
-                  alt="contactqr"
-                  width={100}
-                  height={300}
+                  src={contactus}
+                  alt="contactus"
+                  width={500}
+                  height={200}
                   className="object-contain"
               ></Image>
             </div>
@@ -46,8 +46,8 @@ export default function ContactUs() {
         </div>
         <div className="relative w-[70vw] md:w-[40vw] h-80">
           <Image
-            src={contactus}
-            alt="contactus"
+            src={contactqr}
+            alt="contactqr"
             fill
             className="object-contain"
           ></Image>
