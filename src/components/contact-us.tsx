@@ -17,8 +17,8 @@ export default function ContactUs() {
               <Image
                   src={contactqr}
                   alt="contactqr"
-                  width={30}
-                  height={30}
+                  width={1000}
+                  height={3000}
                   className="object-contain"
               ></Image>
             </div>
