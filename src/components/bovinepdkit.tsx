@@ -36,8 +36,9 @@ export default function Bovinepdkit() {
         </div>
         <div className="mt-4">
           <p className="text-xl">Customer Support</p>
-          <div>For technical assistance or to reorder kits, please contact our <Link href="#contactUs" className="links">
-            customer service</Link> for assistance needed. Our team of experts is available to support you with any queries or concerns you may have.</div>
+          <div>For technical assistance or to reorder kits, please contact our 
+            <Link href="#contactUs" className="links">customer service</Link>.
+            Our team of experts is available to support you with any queries or concerns you may have.</div>
         </div>
       </div>
     </>
