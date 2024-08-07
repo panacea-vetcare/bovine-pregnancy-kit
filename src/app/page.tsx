@@ -1,6 +1,7 @@
 "use client";
 import Home from "@/components/home";
 import About from "@/components/about";
+import Bovinepdkit from "@/components/bovinepdkit";
 import ContactUs from "@/components/contact-us";
 import Copyright from "@/components/copyright";
 import { motion } from "framer-motion";
@@ -15,6 +16,7 @@ export default function home() {
         transition={{ ease: "easeInOut", duration: 0.75, delay: 1 }}
       >
         <About />
+        <Bovinepdkit />
         <ContactUs />
         <Copyright />
       </motion.div>
