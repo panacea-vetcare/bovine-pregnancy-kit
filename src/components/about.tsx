@@ -11,7 +11,7 @@ export default function About() {
       <div className="container-spacing">
         <p className="text-center text-2xl">About us</p>
         <div className="mt-4">
-          We are specialized in animal pregnancy kits provides essential tools for
+          We Panacea Vetcare are specialized in animal pregnancy kits provides essential tools for
           veterinarians, breeders pet owners to determine pregnancy in
           animals accurately and conveniently. These kits typically include
           testing supplies or devices that detect specific hormones or proteins
