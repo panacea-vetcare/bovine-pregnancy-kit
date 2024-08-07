@@ -28,6 +28,13 @@ export default function Bovinepdkit() {
         </div>
         <div className="mt-4">
           <p className="text-xl">Benefits</p>
+          <div>Improved Reproductive Management: Helps in early identification of pregnant and non-pregnant cows, allowing for timely intervention and better reproductive planning.</div>
+          <div>Enhanced Productivity: Early pregnancy detection aids in optimizing breeding schedules and improving overall herd productivity.</div>
+          <div>Animal Welfare: Non-invasive and quick testing minimizes animal handling and stress.</div>
+          <div>Quality Control: Each kit includes a control line to ensure the test has been performed correctly.</div>
+        </div>
+        <div className="mt-4">
+          <p className="text-xl">Customer Support</p>
           <div>*Improved Reproductive Management*: Helps in early identification of pregnant and non-pregnant cows, allowing for timely intervention and better reproductive planning.</div>
           <div>Enhanced Productivity: Early pregnancy detection aids in optimizing breeding schedules and improving overall herd productivity.</div>
           <div>Animal Welfare: Non-invasive and quick testing minimizes animal handling and stress.</div>
