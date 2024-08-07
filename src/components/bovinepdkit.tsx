@@ -12,7 +12,7 @@ export default function Bovinepdkit() {
           within a short period, making it an invaluable asset for veterinarians, farmers, and livestock managers.
         </div>
         <div className="mt-4">
-          <div className="mt-6">Key Features</div>
+          <p className="text-2xl">Key Features</p>
           <div>Rapid Results: Provides results within minutes, allowing for quick decision-making and efficient herd management.</div>
         </div>
 
