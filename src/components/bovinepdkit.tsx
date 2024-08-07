@@ -23,13 +23,16 @@ export default function Bovinepdkit() {
           <p className="text-xl">How It Works</p>
           <div>Sample Collection: Collect a small blood sample from the cow using the provided collection tools.</div>
           <div>Test Procedure: Apply the sample to the test device as per the instructions provided in the kit. Wait for the specified time (typically a few minutes) for the test to develop.</div>
-          <div>Result Interpretation:
-            <p>Positive Result: Indicates the presence of pregnancy-associated glycoproteins (PAGs) in the sample, confirming pregnancy.</p>
-            <p>Negative Result: Indicates the absence of PAGs, suggesting the cow is not pregnant.</p>
-          </div>
+          <div>Result Interpretation: Indicates the presence or absence of pregnancy-associated glycoproteins (PAGs) in the sample, confirming the pregnancy.</div>
           <div>Quality Control: Each kit includes a control line to ensure the test has been performed correctly.</div>
         </div>
-
+        <div className="mt-4">
+          <p className="text-xl">Benefits</p>
+          <div>*Improved Reproductive Management*: Helps in early identification of pregnant and non-pregnant cows, allowing for timely intervention and better reproductive planning.</div>
+          <div>Enhanced Productivity: Early pregnancy detection aids in optimizing breeding schedules and improving overall herd productivity.</div>
+          <div>Animal Welfare: Non-invasive and quick testing minimizes animal handling and stress.</div>
+          <div>Quality Control: Each kit includes a control line to ensure the test has been performed correctly.</div>
+        </div>
       </div>
     </>
   );
