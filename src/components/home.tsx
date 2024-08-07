@@ -24,9 +24,9 @@ export default function Home() {
             transition={{ ease: "easeInOut", duration: 0.5, delay: 0.5 }}
           >
             <div className="flex flex-col gap-4">
-              <span className="text-2xl text-white">WELCOME TO</span>
+              <span className="text-2xl text-white">PANACEA VETCARE</span>
               <span className="text-4xl text-white ">
-                PANACEA VETCARE: Bovine Pregnancy Diagnosis Rapid Test Kit
+                Bovine Pregnancy Diagnosis Rapid Test Kit
               </span>
             </div>
           </motion.div>
