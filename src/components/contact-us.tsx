@@ -22,6 +22,7 @@ export default function ContactUs() {
                   className="object-contain"
               ></Image>
             </div>
+            <div className="flex justify-center items-center gap-3">
               <Image
                 src={phone}
                 alt="phone"
