@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <span className="text-2xl text-white">WELCOME TO</span>
               <span className="text-4xl text-white ">
-                PANACEA VETCARE: Bovine Pregnancy Diagnostic Rapid Test Kit
+                PANACEA VETCARE: Bovine Pregnancy Diagnosis Rapid Test Kit
               </span>
             </div>
           </motion.div>
