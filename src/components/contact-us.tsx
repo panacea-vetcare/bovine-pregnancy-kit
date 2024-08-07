@@ -2,6 +2,7 @@ import Image from "next/image";
 import contactus from "public/contactus.svg";
 import email from "public/email.svg";
 import phone from "public/phone.svg";
+import contactqr from "public/contactqr.jpg"
 
 export default function ContactUs() {
   return (
@@ -14,13 +15,21 @@ export default function ContactUs() {
           <div className="flex flex-col items-center md:items-start gap-4">
             <div className="flex justify-center items-center gap-3">
               <Image
+                  src={contactqr}
+                  alt="contactqr"
+                  width={30}
+                  height={30}
+                  className="object-contain"
+              ></Image>
+            </div>
+              <Image
                 src={phone}
                 alt="phone"
                 width={30}
                 height={30}
                 className="object-contain"
               ></Image>
-              <a href="tel:9281411003">9281411001, 9281411003</a>
+              <a href="tel:9281411003">9281411001,9281411003</a>
             </div>
             <div className="flex justify-center items-center gap-3">
               <Image
