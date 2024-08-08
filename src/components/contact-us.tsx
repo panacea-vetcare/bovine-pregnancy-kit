@@ -31,7 +31,7 @@ export default function ContactUs() {
                 height={30}
                 className="object-contain"
               ></Image>
-              <a href="tel:9281411003">9281411001,9281411003</a>
+              <a href="tel:9281411003">9281411001, 9281411003</a>
             </div>
             <div className="flex justify-center items-center gap-3">
               <Image
