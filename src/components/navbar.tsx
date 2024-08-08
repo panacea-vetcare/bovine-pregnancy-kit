@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import cownav from "public/cow-face.svg";
+import cownav from "public/logo.jpeg";
 import { useEffect } from "react";
 
 export default function Navbar() {
@@ -25,7 +25,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="fixed h-12 bg-green-900/50 top-0 left-0 w-screen flex justify-between items-center pr-1 md:pr-4 pl-1 md:pl-3 z-50">
+    <nav className="fixed h-16 bg-green-900/50 top-0 left-0 w-screen flex justify-between items-center pr-1 md:pr-4 pl-1 md:pl-3 z-50">
       <Link
         href="#"
         className="h-full flex items-center justify-center gap-1 links text-xl text-"
@@ -34,7 +34,7 @@ export default function Navbar() {
           src={cownav}
           alt="home"
           height={40}
-          className="text-white"
+          className="text-white rounded-md mr-2"
         ></Image>
         Home
       </Link>
