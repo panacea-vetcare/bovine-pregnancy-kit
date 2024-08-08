@@ -14,7 +14,7 @@ export default function Bovinepdkit() {
         </div>
         <div className="mt-4">
           <p className="text-xl">Key Features</p>
-          <div>Rapid Results: Provides results within minutes, allowing for quick decision-making and efficient herd management.</div>
+          <div><b>Rapid Results:</b> Provides results within minutes, allowing for quick decision-making and efficient herd management.</div>
           <div>High Accuracy: Boasts a high sensitivity and specificity, ensuring reliable detection of pregnancy from as early as 28 days post-insemination.</div>
           <div>User-Friendly: Simple to use with minimal training required. The kit includes all necessary components and easy-to-follow instructions.</div>
           <div>Non-Invasive: Utilizes a small blood sample, minimizing stress and discomfort for the animals.</div>
