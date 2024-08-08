@@ -42,6 +42,9 @@ export default function Navbar() {
         <Link href="#about" className="links">
           About
         </Link>
+        <Link href="#bovinepdkit" className="links">
+          Product
+        </Link>
         <Link href="#contactUs" className="links">
           Contact Us
         </Link>
