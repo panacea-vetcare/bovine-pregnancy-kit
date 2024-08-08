@@ -3,6 +3,7 @@ import contactus from "public/contactus.svg";
 import email from "public/email.svg";
 import phone from "public/phone.svg";
 import contactqr from "public/contactqr.jpg"
+import Link from "next/link";
 
 export default function ContactUs() {
   return (
@@ -45,12 +46,15 @@ export default function ContactUs() {
           </div>
         </div>
         <div className="relative w-[70vw] md:w-[40vw] h-80">
-          <Image
+          <Link href="https://wa.me/message/XND2YARGJYH4C1"
+            className="link">
+            <Image
             src={contactqr}
             alt="contactqr"
             fill
             className="object-contain"
           ></Image>
+          </Link>
         </div>
       </div>
     </div>
